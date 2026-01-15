@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #4f46e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #4338ca;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #4f46e5;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #4338ca;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Xin chào 👋</h1>
+        <p>Đây là website HTML tĩnh đầu tiên của tôi</p>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>📌 Giới thiệu</h2>
+            <p>
+                Đây là giao diện web HTML tĩnh, không cần backend,
+                có thể deploy miễn phí lên GitHub Pages, Netlify, Vercel.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🚀 Hành động</h2>
+            <p>Nhấn nút bên dưới để thử JavaScript đơn giản:</p>
+            <button onclick="sayHello()">Bấm vào tôi</button>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 - Website demo HTML | Made by You ❤️
+    </footer>
+
+    <script>
+        function sayHello() {
+            alert("Chúc bạn học HTML vui vẻ 🎉");
+        }
+    </script>
+
+</body>
+</html>
